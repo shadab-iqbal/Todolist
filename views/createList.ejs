@@ -1,0 +1,20 @@
+<%- include("header") -%>
+
+    <div class="box" id="heading">
+        <h1>
+            List Name
+        </h1>
+    </div>
+
+    <div class="box">
+
+        <form class="item" action="/create-list" method="post">
+            <input type="text" name="newList" placeholder="Enter list name" autocomplete="off">
+            <button type="submit" name="list"> + </button>
+        </form>
+
+    </div>
+
+    <a type="button" class="btn btn-dark btn-lg" href="/">Homepage</a>
+
+    <%- include("footer") -%>
